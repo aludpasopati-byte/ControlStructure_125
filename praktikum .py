@@ -7,7 +7,7 @@ elif grade >= 80:
 elif grade >= 70:
     print("Good performance")
 elif grade >= 60:
-    #print("Average performance")
+    print("Average performance")
 else:
     print("Poor performance")
 
