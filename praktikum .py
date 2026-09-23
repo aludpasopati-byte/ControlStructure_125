@@ -24,3 +24,30 @@ elif angka3 > angka1 and angka3 > angka2:
 else:
     print("tidak ada angka yang terbesar")
 
+    n = int (input("Masukkan Jumlah Suku (n): "))
+a, b = 0, 1
+
+if n <=0:
+    print("Masukkan angka positif")
+
+if n <=0:
+    print("Masukkan angka positif")
+    print("Deret Fibonacci: ")
+    for i in range(n):
+        print(a, end=" ")
+        a, b = b, a + b
+    print() 
+
+
+    n = int(input("Masukkan Jumlah Suku (n): "))
+
+print (f"Angka Ganjil Hingga {n} adalah:")
+for i in range(1, n + 1, 2):
+      print(i, end=" ")
+print()
+
+n = int(input("Masukkan Nilai n: "))
+
+for i in range(1, n + 1):
+    print(str(i) * i)
+
